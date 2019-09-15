@@ -88,20 +88,11 @@ $(document).ready(function() {
   });
 
   $("#przycisk3").click(function() {
-    alert("test");
-    var mysql = require("mysql");
-
-    var con = mysql.createConnection({
-      host: "pi.cba.pl",
-      user: "Bazapi2019",
-      password: "Bazapi2019"
-    });
-
-    con.connect(function(err) {
-      if (err) throw err;
-      console.log("Connected!");
-    });
-    console.log(con);
+    alert(obiekt);
+    alert(wczoraj);
+    alert(dzien);
+    alert(godzina);
+    alert(godzina2);
   });
 
   $("#przycisk1").click(function() {
