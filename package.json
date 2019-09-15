@@ -18,5 +18,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rzi/topi-gulp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rzi/topi-gulp/issues"
+  },
+  "homepage": "https://github.com/rzi/topi-gulp#readme"
 }
